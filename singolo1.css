@@ -1,0 +1,199 @@
+body {
+  max-width: 1020px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 89px;
+  background-color: #2d303a;
+  border-bottom: 6px solid #323746;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.logo h1 {
+  font-size: 25px;
+  line-height: 6px;
+  color: #f2f2f2;
+  font-family: "Lato";
+  font-weight: 700;
+  text-align: left;
+}
+
+.logo span {
+  color: #f06c64;
+}
+
+nav {
+  width: 380px;
+  margin-right: 40px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 6px;
+  color: #f2f2f2;
+  font-family: "Lato";
+  font-weight: 700;
+  text-align: left;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 6px;
+  color: #f06c64;
+  font-family: "Lato";
+  font-weight: 700;
+  text-align: left;
+}
+
+main {
+  height: 600px;
+  background: #f06c64;
+  border-bottom: 15px solid #ea676b;
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.chevLeft {
+  display: inline-block;
+  position: absolute;
+  color: #ca4549;
+  opacity: 0.4;
+}
+
+.chevLeft:hover {
+  cursor: pointer;
+}
+
+.pictures {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.iPhoneVertical {
+  display: inline-block;
+  position: absolute;
+  left: 110px;
+  top: -17px;
+}
+
+.iPhoneHorizontal {
+  display: inline-block;
+  position: absolute;
+  right: 80px;
+  top: 69px;
+}
+
+.chevRight {
+  display: inline-block;
+  position: absolute;
+  right: 40px;
+  color: #ca4549;
+  opacity: 0.4;
+}
+
+.chevRight:hover {
+  cursor: pointer;
+}
+
+footer {
+  height: 495px;
+  background: #f2f2f2;
+  border-bottom: 6px solid #ffffff;
+}
+
+footer h2 {
+  font-size: 30px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: "Lato";
+  font-weight: 900;
+  text-align: left;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 60px;
+}
+
+footer p {
+  width: 940px;
+  height: 57px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 300;
+  text-align: left;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 30px;
+}
+
+.miniBlocks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  margin: 50px 40px auto 40px;
+  border: 2px solid red;
+}
+
+.block {
+  display: flex;
+  margin: 1%;
+  width: 31%;
+  height: 41%;
+}
+
+.block img {
+  width: 62%;
+  height: 62%;
+}
+
+.blockText h3 {
+  font-size: 18px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: "Lato";
+  font-weight: 900;
+  text-align: left;
+  margin-bottom: 4%;
+  line-height: 16px;
+}
+
+.block p {
+  width: 219px;
+  height: 128px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: justify;
+}
