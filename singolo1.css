@@ -90,21 +90,21 @@ nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 35px;
+  margin-top: 37px;
 }
 
 nav ul li:before {
-	color: #323746;
-	content:"\2022";
-	font-size: 8px;
-	padding-right: 15px;
-	line-height: 18px;
+  color: #323746;
+  content:"\2022";
+  font-size: 8px;
+  padding-right: 15px;
+  line-height: 18px;
   top: 0;
 }
 
 nav ul li:first-child:before {
-	content: "";
-	padding-right: 0;
+  content: "";
+  padding-right: 0;
 }
 
 nav ul li a {
