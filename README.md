@@ -1,1 +1,1 @@
-https://ekaterina1994.github.io/singolo/singolo1.html
+Страницу увидеть можно, перейдя по ссылке: https://ekaterina1994.github.io/singolo/singolo1.html
