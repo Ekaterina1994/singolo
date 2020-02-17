@@ -89,7 +89,21 @@ nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 35px;
+  margin-top: 37px;
+}
+
+nav ul li:before {
+	color: white;
+	content:"\2022";
+	font-size: 8px;
+	padding-right: 15px;
+	line-height: 18px;
+  top: 0;
+}
+
+nav ul li:first-child:before {
+	content: "";
+	padding-right: 0;
 }
 
 nav ul li a {
@@ -174,13 +188,13 @@ main {
   cursor: pointer;
 }
 
-footer {
+article {
   height: 495px;
   background: #f2f2f2;
   border-bottom: 6px solid #ffffff;
 }
 
-footer h2 {
+article h2 {
   font-size: 30px;
   line-height: 18px;
   color: #666d89;
@@ -192,7 +206,7 @@ footer h2 {
   padding-top: 70px;
 }
 
-footer p {
+article p {
   width: 940px;
   height: 57px;
   font-size: 18px;
@@ -214,7 +228,7 @@ footer p {
 
 .miniBlocks {
   display: flex;
-  flex-flow: row;
+  flex-direction: : row;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 940px;
@@ -223,7 +237,7 @@ footer p {
 
 .block {
   display: flex;
-  flex-flow: row;
+  flex-direction: : row;
   width: 300px;
   flex-wrap: wrap;
   margin-bottom: 39px;
