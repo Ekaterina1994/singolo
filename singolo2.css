@@ -1,0 +1,252 @@
+* { padding: 0; margin: 0; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  max-width: 1020px;
+}
+
+.portfolio {
+  width: 1020px;
+  height: 864px;
+  background-color: #2d303a;
+  border-bottom: 6px solid #323746;
+}
+
+.portfolio h2 {
+  font-size: 30px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: "Lato";
+  font-weight: 900;
+  text-align: left;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 72px;
+  letter-spacing: .005em;
+}
+
+.portfolio p {
+  width: 940px;
+  height: 57px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 300;
+  text-align: left;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 26px;
+  letter-spacing: -.0117em;
+}
+
+.navigationButtons {
+  margin-top: -18px;
+  margin-left: 41px;
+}
+
+.navigationButtonsItem {
+  height: 22px;
+  border-radius: 5px;
+  background-color: #2d303a;
+  border: 1px solid #666d89;
+  font-size: 12px;
+  line-height: 22px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
+  text-align: center;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-right: 5px;
+}
+
+.navigationButtonsItem:hover {
+  border: 1px solid #c5c5c5;
+  color: #dedede;
+  cursor: pointer;
+}
+
+.pictures {
+  width: 940px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.picturesItem {
+  width: 220px;
+  height: 187px;
+  overflow: hidden;
+  display: flex;
+  background-color: #464b5e;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.picturesItem:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.picturesItem:nth-child(n+13) {
+  display: none;
+}
+
+.picturesItem img {
+  width: auto;
+}
+
+.aboutUs {
+  height: 722px;
+  background-color: #f2f2f2;
+  border-bottom: 6px solid #ffffff;
+}
+
+.aboutUs h2 {
+  font-size: 30px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: "Lato";
+  font-weight: 900;
+  text-align: left;
+  margin-top: -1px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 72px;
+  letter-spacing: -.003em;
+}
+
+.aboutUs p {
+  width: 940px;
+  height: 57px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 300;
+  text-align: left;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 26px;
+  letter-spacing: -.003em;
+}
+
+.letterspace {
+  margin-left: -2px;
+  letter-spacing: -.012em;
+}
+
+.stuff {
+  margin-left: 40px;
+  margin-top: 45px;
+  width: 940px;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.stuffItem {
+  width: 300px;
+  height: 300px;
+}
+
+.stuffImg {
+  width: 300px;
+  height: 300px;
+  background-color: #464b5e;
+}
+
+.stuffImg:hover {
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.stuff h3 {
+  font-size: 18px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: "Lato";
+  font-weight: 900;
+  text-align: left;
+  margin-top: 20px;
+  letter-spacing: -.003em;
+}
+
+.stuff p {
+  width: 301px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
+  margin-left: 0;
+  padding-top: 7px;
+  letter-spacing: -.012em;
+}
+
+.stuffIcons {
+  margin-top: 9px;
+}
+
+.borderIcons {
+  width: 32px;
+  height: 32px;
+  padding: 6px;
+  border-radius: 16px;
+  border: 1px solid #666d89;
+
+}
+
+.borderIcons:hover {
+  cursor: pointer;
+  background-color: #eb5055;
+}
