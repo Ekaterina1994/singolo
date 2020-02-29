@@ -184,7 +184,7 @@ body {
   letter-spacing: -.012em;
 }
 
-.stuff {
+.staff {
   margin-left: 40px;
   margin-top: 45px;
   width: 940px;
@@ -193,23 +193,23 @@ body {
   flex-wrap: wrap;
 }
 
-.stuffItem {
+.staffItem {
   width: 300px;
   height: 300px;
 }
 
-.stuffImg {
+.staffImg {
   width: 300px;
   height: 300px;
   background-color: #464b5e;
 }
 
-.stuffImg:hover {
+.staffImg:hover {
   cursor: pointer;
   opacity: 0.3;
 }
 
-.stuff h3 {
+.staff h3 {
   font-size: 18px;
   line-height: 18px;
   color: #666d89;
@@ -220,7 +220,7 @@ body {
   letter-spacing: -.003em;
 }
 
-.stuff p {
+.staff p {
   width: 301px;
   font-size: 12px;
   line-height: 22px;
@@ -233,20 +233,26 @@ body {
   letter-spacing: -.012em;
 }
 
-.stuffIcons {
+.staffIcons {
   margin-top: 9px;
+	margin-right: 5px;
 }
 
 .borderIcons {
+	margin-right: 1px;
+}
+
+.borderIcons:hover {
+	cursor: pointer;
+	border-radius: 20px;
+	background-color: #eb5055;
+}
+
+/*.borderIcons {
   width: 32px;
   height: 32px;
   padding: 6px;
   border-radius: 16px;
   border: 1px solid #666d89;
-
 }
-
-.borderIcons:hover {
-  cursor: pointer;
-  background-color: #eb5055;
-}
+*/
