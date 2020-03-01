@@ -218,6 +218,8 @@ body {
   text-align: left;
   margin-top: 20px;
   letter-spacing: -.003em;
+	white-space: nowrap;
+  overflow: hidden;
 }
 
 .staff p {
@@ -247,12 +249,3 @@ body {
 	border-radius: 20px;
 	background-color: #eb5055;
 }
-
-/*.borderIcons {
-  width: 32px;
-  height: 32px;
-  padding: 6px;
-  border-radius: 16px;
-  border: 1px solid #666d89;
-}
-*/
