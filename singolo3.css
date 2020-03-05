@@ -70,7 +70,6 @@ body {
 
 .getAQuote p {
   width: 940px;
-  height: 57px;
   font-size: 18px;
   line-height: 30px;
   color: #f0d8d9;
@@ -92,7 +91,7 @@ body {
   display: flex;
   width: 940px;
   margin-left: 40px;
-  margin-top: 45px;
+  margin-top: 42px;
 }
 
 form {
@@ -185,4 +184,90 @@ form {
 .formSubmit:hover {
   border: 1px solid #f0d8d9;
   cursor: pointer;
+}
+
+.contactInformation {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+
+.contactInformation h3 {
+  font-size: 18px;
+  line-height: 18px;
+  color: #f0d8d9;
+  font-family: "Lato";
+  font-weight: 900;
+  text-align: left;
+  margin-top: 2px;
+  letter-spacing: 0.005em;
+}
+
+.contactInformation p {
+  width: 300px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #f0d8d9;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+  padding-top: 8px;
+  letter-spacing: -.005em;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+
+
+.contactIcons {
+
+  margin-right: 5px;
+
+}
+
+.contactLink {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 22px;
+  color: #f0d8d9;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
+}
+
+footer {
+  width: 1020px;
+  background-color: #2d303a;
+}
+
+.footerInfo {
+  display: flex;
+  height: 76px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+  align-items: center;
+}
+
+.footerCopyright {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 22px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: -0.01em;
+}
+
+.footerIcons {
+  margin-top: 2px;
 }
