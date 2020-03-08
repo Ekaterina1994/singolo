@@ -285,6 +285,8 @@ article p {
   padding-top: 0;
   padding-left: 40px;
   letter-spacing: -.003em;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .portfolio {
@@ -459,6 +461,7 @@ article p {
   letter-spacing: -.003em;
 	white-space: nowrap;
   overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .staff p {
@@ -730,4 +733,5 @@ footer {
 
 .borderIcons:hover {
   cursor: pointer;
+	opacity: 0.6;
 }
